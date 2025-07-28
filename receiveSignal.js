@@ -1,6 +1,7 @@
 // receive/receiveSignal.js
 
-const socket = new WebSocket("ws://localhost:8080");
+const socket = new WebSocket('wss://wsserver-cngm.onrender.com');
+
 
 socket.onopen = () => {
   console.log("📡 WebSocket подключён [панель]");
